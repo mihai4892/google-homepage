@@ -1,7 +1,218 @@
+/* CSS Reset Start */
+
+* {
+margin: 0; 
+padding: 0; 
+text-decoration: none; 
+font-size: 1em;
+outline: none;
+}
+
+code, kbd, samp, pre, tt, var, textarea, input, select, isindex, listing, xmp, plaintext {
+font: inherit; 
+font-size: 1em; 
+white-space: normal;
+}
+
+dfn, i, cite, var, address, em {
+font-style: normal;
+}
+
+th, b, strong, h1, h2, h3, h4, h5, h6 {
+font-weight: normal;
+}
+
+a, img, a img, iframe, form, fieldset, abbr, acronym, object, applet, table {
+border: none;
+}
+
+table {
+border-collapse: collapse; 
+border-spacing: 0;
+}
+
+caption, th, td, center {
+text-align: left; 
+vertical-align: top;
+}
+
+body {
+line-height: 1; 
+background: white; 
+color: black;
+}
+
+q {
+quotes: "" "";
+}
+
+ul, ol, dir, menu {
+list-style: none;
+}
+
+sub, sup {
+vertical-align: baseline;
+}
+
+a {
+color: inherit;
+}
+
+hr {
+display: none;
+} /* we don't need a visual hr in layout */
+
+font {
+color: inherit !important; 
+font: inherit !important; 
+color: inherit !important;
+} /* disables some nasty font attributes in standard browsers */
+
+marquee {
+overflow: inherit !important; 
+-moz-binding: none;
+}
+
+blink {
+text-decoration: none;
+}
+
+nobr {
+white-space: normal;
+}
+
+/* CSS Reset End */
+
+#upper-left-links a {
+	display: block;
+	position: relative;
+	float: left;
+	padding: 15px;
+	font-family: arial, sans;
+	color: grey;
+	font-size: 0.90em;
+}
+
+#upper-right-links a {
+	display: block;
+	position: relative;
+	float: right;
+	padding: 15px;
+	font-family: arial, sans;
+	color: grey;
+	font-size: 0.90em;
+}
+
+#upper-left-links a:hover {
+	color: black;
+}
+
+#upper-right-links a:hover {
+	color: black;
+}
+
 #logo {
 	display: block;
 	position: relative;
-	height: 300px;
-	
-	
+	height: 400px;
+	margin: auto;
+		
 }
+
+#search {
+	display: block;
+	position: relative;
+	width: 400px;
+	margin: auto;
+	border: 1px solid grey;
+	border-radius: 25px;
+	padding: 15px;
+}
+
+#buttons {
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+#buttons input {
+	padding: 10px 20px 10px 20px;
+	margin: 10px;
+	border: 1px solid white;
+	border-radius: 5px;
+	font-family: arial, sans;
+	color: grey;
+	font-size: 0.90em;
+	background-color: #f2f2f2;
+}
+
+#buttons input:hover {
+	border: 1px solid grey;
+	cursor: pointer;
+}
+
+#buttons input:active {
+	color: black;
+}
+
+#links {
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	border-top: 1px solid #e4e4e4;
+	background-color: #f2f2f2;	
+}
+
+#country {
+	display: block;
+	position: absolute;
+	width: 100%;
+	bottom: 45px;
+	border-top: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+}
+
+#country p {
+	padding: 15px 0px 15px 25px;
+	font-family: arial, sans;
+	color: grey;
+	font-size: 0.90em;
+}
+
+#lower-right-links {
+	display: block;
+	position: relative;
+	float: right;
+	padding: 15px 25px 15px 25px;
+	font-family: arial, sans;
+	color: grey;
+	font-size: 0.90em;
+}
+
+#lower-right-links a:hover {
+	color:black;
+}
+
+#lower-left-links {
+	display: block;
+	position: relative;
+	float: left;
+	padding: 15px 25px 15px 25px;
+	font-family: arial, sans;
+	color: grey;
+	font-size: 0.90em;
+}
+
+#lower-left-links a:hover {
+	color: black;
+}
+
+#lower-right-links a {
+	padding-left: 15px;
+}
+
+#lower-left-links a {
+	padding-right: 15px;
+}
+
