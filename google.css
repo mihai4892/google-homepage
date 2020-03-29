@@ -86,6 +86,7 @@ white-space: normal;
 #upper-links {
 	width: 100%;
 	height: auto;
+	display: -webkit-flex;
 	display: flex;
 	align-content: baseline;
 	flex-direction: row;
@@ -93,6 +94,7 @@ white-space: normal;
 }
 
 #upper-links div {
+	display: -webkit-flex;
 	display: flex;
 	flex-direction: row;
 }
