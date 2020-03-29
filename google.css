@@ -83,34 +83,43 @@ white-space: normal;
 
 /* CSS Reset End */
 
-#upper-left-links a {
+#upper-links {
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-content: baseline;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#upper-links div {
+	display: flex;
+	flex-direction: row;
+}
+
+#upper-links a {
 	display: block;
 	position: relative;
-	float: left;
 	padding: 15px;
 	font-family: arial, sans;
 	color: grey;
-	font-size: 0.90em;
+	font-size: 0.85em;
 }
 
-#upper-right-links a {
-	display: block;
-	position: relative;
-	float: right;
-	padding: 15px;
-	font-family: arial, sans;
-	color: grey;
-	font-size: 0.90em;
-}
-
-#upper-left-links a:hover {
+#upper-links a:hover {
 	color: black;
 }
 
-#upper-right-links a:hover {
-	color: black;
+.align-left {
+	align-self: flex-start;
 }
 
+.align-right {
+	align-self: flex-end;
+}
+#sign-in {
+	font-weight: bold;
+}
 #logo {
 	display: block;
 	position: relative;
